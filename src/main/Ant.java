@@ -78,7 +78,7 @@ public class Ant {
         this.gp = gp;
         setValues();
         ant_solid_area = new Rectangle(0,0,32,32);
-        ant_visible_solid_area = new Rectangle(0,0,96,96);
+        ant_visible_solid_area = new Rectangle(-64,-64,224,224);
         solidAreaDefaultX = ant_solid_area.x;
         solidAreaDefaultY = ant_solid_area.y;
     }

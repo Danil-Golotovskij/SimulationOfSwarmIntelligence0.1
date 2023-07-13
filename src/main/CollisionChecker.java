@@ -394,8 +394,8 @@ public class CollisionChecker {
                         }
                     }
                 }
-                solidArea.x = 0;
-                solidArea.y = 0;
+                solidArea.x = -64;
+                solidArea.y = -64;
                 ant.ant_solid_area.x = ant.solidAreaDefaultX;
                 ant.ant_solid_area.y = ant.solidAreaDefaultY;
                 if(gp.object[i]!=null) {
